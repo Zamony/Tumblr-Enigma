@@ -358,6 +358,7 @@
 {/block:PermalinkPage}
 {CustomCSS}
 </style>
+</head>
 <div id="header">
     <a href="{BlogURL}"><img alt="{Title}" src="{image:Logo}"></a>
     {block:IndexPage}
