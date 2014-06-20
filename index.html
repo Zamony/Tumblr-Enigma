@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +16,6 @@
         <meta name="description" content="{MetaDescription}" />
     {/block:Description}
     <title>{block:PermalinkPage}{block:PostSummary}{PostSummary}{/block:PostSummary} | {/block:PermalinkPage}{Title}</title>
-    <link rel="shortcut icon" href="{Favicon}">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
     <style>
     /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
@@ -362,7 +360,6 @@
 {CustomCSS}
 </style>
 </head>
-<body>
 <div id="header">
     <a href="{BlogURL}"><img alt="{Title}" src="{image:Logo}"></a>
     {block:IndexPage}
@@ -399,5 +396,3 @@
     {/block:IfShowTwitterButton}
     {text:Footer HTML}
 </div>
-</body>
-</html>
